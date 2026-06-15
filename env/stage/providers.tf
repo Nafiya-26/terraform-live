@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "infraforge-tf-state"
+    bucket         = "infraforge-tf-state-1"
     key            = "stage/terraform.tfstate"
     region         = "us-east-2"
-    dynamodb_table = "infraforge-tf-locks"
+    dynamodb_table = "infraforge-tf-locks-1"
     encrypt        = true
   }
 

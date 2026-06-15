@@ -40,7 +40,7 @@ key_name = "infra-key"
 
 public_subnet_az = "az1"
 
-bucket_name = "infraforge-stage-app-data"
+bucket_name = "infraforge-stage-app-data-1"
 
 ingress_rules = [
   {

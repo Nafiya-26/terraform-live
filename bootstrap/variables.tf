@@ -19,24 +19,6 @@ variable "lock_table_name" {
   type        = string
 }
 
-variable "vault_addr" {
-  description = "Vault server address"
-  type        = string
-  sensitive   = true
-}
-
-variable "vault_role_id" {
-  description = "Vault AppRole Role ID"
-  type        = string
-  sensitive   = true
-}
-
-variable "vault_secret_id" {
-  description = "Vault AppRole Secret ID"
-  type        = string
-  sensitive   = true
-}
-
 variable "aws_region" {
   description = "AWS region"
   type        = string

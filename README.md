@@ -129,6 +129,6 @@ AWS Infrastructure
 * Enforced production deployment approvals and controlled infrastructure changes.
 
 ## 👨‍💻 Author
-**Mohammed Zaid Ahmed**
+**Nafiya**
 
-Terraform • AWS • DevOps • Platform Engineering
+Terraform • AWS • DevOps
