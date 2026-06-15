@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "git::https://github.com/Nafiya-26/terraform-aws-vpc.git?ref=v2.0.1"
+  source = "git::https://github.com/Nafiya-26/terraform-aws-vpc.git"
 
   project     = var.project
   environment = var.environment
@@ -13,7 +13,7 @@ module "vpc" {
 }
 
 module "iam" {
-  source = "git::https://github.com/Nafiya-26/terraform-aws-iam-role.git?ref=v2.0.0"
+  source = "git::https://github.com/Nafiya-26/terraform-aws-iam-role.git"
 
   project     = var.project
   environment = var.environment
@@ -39,7 +39,7 @@ module "iam" {
 }
 
 module "ec2" {
-  source = "git::https://github.com/Nafiya-26/terraform-aws-ec2.git?ref=v2.0.0"
+  source = "git::https://github.com/Nafiya-26/terraform-aws-ec2.git"
 
   project     = var.project
   environment = var.environment
@@ -60,7 +60,7 @@ module "ec2" {
 }
 
 module "s3" {
-  source = "git::https://github.com/Nafiya-26/terraform-aws-s3.git?ref=v1.0.0"
+  source = "git::https://github.com/Nafiya-26/terraform-aws-s3.git"
 
   project     = var.project
   environment = var.environment
